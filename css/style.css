@@ -1,0 +1,119 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body{
+    background-color: #CCC;
+    font-family: Arial, sans-serif;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    margin-left: 10px;
+}
+.logo{
+    display: flex;
+    justify-content: left;
+    background-color: #fff;
+    align-items: center;
+    width: 100%;
+}
+.texto{
+    margin-left: 70px;
+}
+/* video */
+.video{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.video img{
+    width: 1280px;
+    height: 550px;
+}
+/* video */
+
+
+/* inicio do rodape */
+.rodape{
+    background-color: white;
+    border: #CCC solid 2px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.rodape img{
+    width: 40px;
+    height: 40px;
+}
+.aviso{
+    display: flex;
+    justify-content: left;
+    flex-direction: column ;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.facebook a{
+    text-decoration: none;
+}
+.instagram a{
+    text-decoration: none;
+}
+/* final do rodapé */
+
+/* linhas de cards */
+.linha1{
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+    justify-content: space-between;
+    margin: 2px;
+}
+/* fim das linhas de cards */
+
+
+/* apartir daqui é CSS do card */
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    
+    width: 400px;
+    height: 500px;
+}
+.card {
+    background-color: #fff;
+    box-shadow: 0px 2px 18px #0000009e;
+    border-radius: 15px;
+}
+.mediocard img{
+    width: 100%;
+    height: 300px;
+}
+.title {
+    padding: 20px;
+    padding-top: 0px;
+    color: black;
+}
+.secondtext{
+    color: darkslategrey;
+}
+.botaotexto{
+    color: black;
+}
+.botaodocard {
+    padding: 25px;
+}
+/* aki acaba o CSS do card */
